@@ -27,22 +27,22 @@ RootFolderExample/
 
 HOW TO USE:
 
-    classes  folder:
-        ConnectionCls.php is intended to be used as dependency injection on QueryUtilityCls.php (Look the example of ConnectionCls.php)
-        QueryUtilityCls is designed for query execution and handling of prepared statements. (Look the example of QueryUtilityCls.php)
-        UserCls.php as well as the other classes that developers will make are intended to inherit QueryUtilityCls.php (Look the example of UserCls.php)
+classes  folder:
+    ConnectionCls.php is intended to be used as dependency injection on QueryUtilityCls.php (Look the example of ConnectionCls.php)
+    QueryUtilityCls is designed for query execution and handling of prepared statements. (Look the example of QueryUtilityCls.php)
+    UserCls.php as well as the other classes that developers will make are intended to inherit QueryUtilityCls.php (Look the example of UserCls.php)
     
-    config folder:
-        Config folder holds teh configuration.php file which performs class autoloader mechanism from the root and services directory. (Look the example of configuration.php)
+config folder:
+    Config folder holds teh configuration.php file which performs class autoloader mechanism from the root and services directory. (Look the example of configuration.php)
 
-    database folder:
+database folder:
     Database folder contains myDB.sql which is example of database for users to test functionality. (Look the example of dbExample.sql)
            
-    services folder:
-        Services folder is designed to hold services that are performed by Forms, dictated by Form's action and Form's method. (Look the example of loginService.php)
+services folder:
+    Services folder is designed to hold services that are performed by Forms, dictated by Form's action and Form's method. (Look the example of loginService.php)
 
-    utilities folder:
-        Utilities folder is designed to hold connection information and similar data. (Look the example of connection.json and connection.xml)
+utilities folder:
+    Utilities folder is designed to hold connection information and similar data. (Look the example of connection.json and connection.xml)
 
 EXAMPLE OF USAGE:
 
